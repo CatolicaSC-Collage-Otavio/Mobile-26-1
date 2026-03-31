@@ -43,6 +43,30 @@ class _MyHomePageState extends State<MyHomePage> {
     'Gorda',
     'Pepsi',
     'Coca',
+    'Bella',
+    'Puppy',
+    'Leia',
+    'Ragnar',
+    'Luke',
+    'Sexta',
+    'Jake',
+    'Bangue',
+    'Nenem',
+    'Gorda',
+    'Pepsi',
+    'Coca',
+    'Bella',
+    'Puppy',
+    'Leia',
+    'Ragnar',
+    'Luke',
+    'Sexta',
+    'Jake',
+    'Bangue',
+    'Nenem',
+    'Gorda',
+    'Pepsi',
+    'Coca',
   ];
 
   @override
@@ -57,7 +81,16 @@ class _MyHomePageState extends State<MyHomePage> {
         child: ListView.builder(
           itemCount: animalList.length,
           itemBuilder: (context, index) {
-            return Card(child: ListTile(title: Text(animalList[index])));
+            return Card(
+              child: ListTile(
+                title: Text(animalList[index]),
+                subtitle: Text('Descrição do animal ${animalList[index]}'),
+                isThreeLine: true,
+                leading: CircleAvatar(child: Icon(Icons.pets)),
+                onTap: () => print('Clicou no animal!'),
+                minTileHeight: 150,
+              ),
+            );
           },
         ),
       ),
