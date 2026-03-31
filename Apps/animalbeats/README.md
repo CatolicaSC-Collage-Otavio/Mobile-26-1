@@ -14,3 +14,34 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## File Tree General
+
+```
+📁 animalbeats
+├── 📁 .dart_tool
+│   └── ...
+├── 📁 android
+│   └── ...
+├── 📁 ios
+│   └── ...
+├── 📁 lib
+│   └── 📄 main.dart
+├── 📁 linux
+│   └── ...
+├── 📁 macos
+│   └── ...
+├── 📁 test
+│   └── 📄 widget_test.dart
+├── 📁 web
+│   └── ...
+├── 📁 windows
+│   └── ...
+├── ⚙️ .gitignore
+├── ⚙️ .metadata
+├── 📝 README.md
+├── ⚙️ analysis_options.yaml
+├── 📄 animalbeats.iml
+├── 📄 pubspec.lock
+└── ⚙️ pubspec.yaml
+```
