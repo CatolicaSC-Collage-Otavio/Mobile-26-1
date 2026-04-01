@@ -1,3 +1,4 @@
+import 'package:animalbeats/components/bottom_sheet.dart';
 import 'package:animalbeats/theme/animal_beats_theme.dart';
 import 'package:flutter/material.dart';
 
@@ -87,13 +88,14 @@ class _MyHomePageState extends State<MyHomePage> {
                 subtitle: Text('Descrição do animal ${animalList[index]}'),
                 isThreeLine: true,
                 leading: CircleAvatar(child: Icon(Icons.pets)),
-                onTap: () => print('Clicou no animal!'),
+                onTap: () => {abrirMenuGigante(context)},
                 minTileHeight: 150,
               ),
             );
           },
         ),
       ),
+      // bottomSheet: ,
     );
   }
 }
