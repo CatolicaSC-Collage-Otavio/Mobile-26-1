@@ -1,0 +1,26 @@
+### Microsoft Office Temporary Files ###
+# Bloqueia os arquivos de "owner" (ex: ~$Documento.docx)
+~$*.docx
+~$*.doc
+~$*.xlsx
+~$*.xls
+~$*.pptx
+~$*.ppt
+
+# Arquivos temporários gerais do Word
+~*
+*.tmp
+
+# Bloqueia arquivos temporários salvos automaticamente (AutoRecovery)
+*.asv
+
+### PDF Temporary Files ###
+# PDFs geralmente não criam temps no mesmo nível, mas alguns editores criam:
+*.pdf.tmp
+*.pdf~
+
+### Diversos / Sistema ###
+# Arquivos de log e cache que podem surgir ao abrir esses documentos
+*.log
+.DS_Store
+Thumbs.db
