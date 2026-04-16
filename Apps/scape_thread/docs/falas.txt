@@ -1,0 +1,1 @@
+Aviso da KOSMOS: "Cuidado ao alocar suas CPUs em sub-processos inúteis, desenvolvedor. O hardware é meu, e eu detesto desperdício de silício."

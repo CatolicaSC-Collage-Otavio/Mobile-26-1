@@ -1,0 +1,5 @@
+Power-up,Custo (Exemplo),Efeito Técnico
+Overclocking,150 CPUs,"Aumenta o tempo da ""Janela de Travamento"" (Latência) da KOSMOS em 10 segundos."
+Hot Reload,80 CPUs,Permite desfazer um erro em um puzzle de lógica de Widgets sem alertar a IA.
+Cache Bypass,200 CPUs,Revela a resposta de um desafio de Security Rules do Firebase instantaneamente.
+Debug Shield,120 CPUs,Protege o XP do jogador caso ele seja pego alterando o sistema no momento errado.
